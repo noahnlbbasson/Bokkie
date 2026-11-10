@@ -1,0 +1,15 @@
+# This is a generated file.  Do not edit.
+buildinfo.configure.tool: cmake
+buildinfo.configure.command: C:/Program Files/CMake/bin/cmake.exe
+buildinfo.configure.version: 4.5.0-rc1
+buildinfo.configure.args:
+buildinfo.configure.generator: Ninja
+buildinfo.configure.make: E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe
+buildinfo.host.cpu: AMD64
+buildinfo.host.os: Windows
+buildinfo.target.cpu: AMD64
+buildinfo.target.os: Windows
+buildinfo.target.flags: WIN32 GCC MINGW
+buildinfo.compiler: GNU
+buildinfo.compiler.version: 15.2.0
+buildinfo.sysroot: 

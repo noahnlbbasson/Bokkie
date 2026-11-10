@@ -1,0 +1,2216 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./10-at-a-time.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./address-scope.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./altsvc.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./anyauthput.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./block_ip.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./certinfo.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./chkspeed.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./connect-to.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./cookie_interface.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./debug.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./default-scheme.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./externalsocket.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./fileupload.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftp-delete.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftp-wildcard.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpget.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpgetinfo.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpgetresp.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpsget.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpupload.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpuploadfrommem.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ftpuploadresume.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./getinfo.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./getinmemory.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./getredirect.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./getreferrer.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./headerapi.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./hsts-preload.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http-options.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http-post.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http2-download.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http2-pushinmemory.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http2-serverpush.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http2-upload.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http3.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./http3-present.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./httpcustomheader.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./httpput.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./httpput-postfields.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./https.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-append.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-authzid.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-copy.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-create.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-delete.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-examine.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-fetch.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-list.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-lsub.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-multi.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-noop.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-search.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-ssl.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-store.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./imap-tls.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./interface.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./ipv6.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./keepalive.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./localport.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./log_failed_transfers.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./maxconnects.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-app.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-debugcallback.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-double.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-formadd.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-legacy.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-post.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./multi-single.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./netrc.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./parseurl.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./persistent.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-authzid.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-dele.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-list.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-multi.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-noop.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-retr.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-ssl.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-stat.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-tls.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-top.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./pop3-uidl.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./post-callback.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./postinmemory.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./postit2.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./postit2-formadd.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./progressfunc.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./protofeats.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./range.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./resolve.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./rtsp-options.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./sendrecv.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./sepheaders.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./sftpget.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./sftpuploadresume.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./shared-connection-cache.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./simple.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./simplepost.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./simplessl.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-authzid.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-expn.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-mail.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-mime.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-multi.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-ssl.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-tls.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./smtp-vrfy.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./sslbackend.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./synctime.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./unixsocket.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./url2file.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./urlapi.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./websocket.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./websocket-cb.c.obj"
+		},
+		{
+			"path" : "_deps/curl-build/docs/examples/CMakeFiles/curl-example-all.dir/./websocket-updown.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"set_property",
+			"include",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/curl-src/docs/examples/CMakeLists.txt",
+			"cmake-build-debug/_deps/curl-src/CMake/PickyWarnings.cmake",
+			"cmake-build-debug/_deps/curl-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 279,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 423,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1968,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 187,
+				"parent" : 3
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libcurl_static::@7349aeacaff41deceb36"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror-implicit-function-declaration"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-W"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wbad-function-cast"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wnested-externs"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-long-long"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-multichar"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wsign-compare"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Waddress"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wattributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wdeclaration-after-statement"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wdiv-by-zero"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wempty-body"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wendif-labels"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wmissing-field-initializers"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wmissing-noreturn"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-format-nonliteral"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-sign-conversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-switch-default"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-switch-enum"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-system-headers"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wold-style-definition"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wredundant-decls"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunreachable-code"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wclobbered"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wmissing-parameter-type"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wold-style-declaration"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpragmas"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wstrict-aliasing=3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ftree-vrp"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wjump-misses-init"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-pedantic-ms-format"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wtrampolines"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Warray-bounds=2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdelete-null-pointer-checks"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wshift-negative-value"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunused-const-variable"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Walloc-zero"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat-truncation=2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wrestrict"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Warith-conversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wenum-conversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Warray-compare"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wenum-int-mismatch"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wxor-used-as-pow"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wleading-whitespace=spaces"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wtrailing-whitespace=any"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunterminated-string-initialization"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "CURL_NO_OLDIES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libcurl_static::@7349aeacaff41deceb36"
+		}
+	],
+	"id" : "curl-example-all::@73eb91aeaddc9ac8b856",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libcurl_static::@7349aeacaff41deceb36"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libcurl_static::@7349aeacaff41deceb36"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "ws2_32"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "iphlpapi"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libcurl_static::@7349aeacaff41deceb36"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "ws2_32"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "iphlpapi"
+		}
+	],
+	"name" : "curl-example-all",
+	"paths" : 
+	{
+		"build" : "_deps/curl-build/docs/examples",
+		"source" : "cmake-build-debug/_deps/curl-src/docs/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/10-at-a-time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/address-scope.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/altsvc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/anyauthput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/block_ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/certinfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/chkspeed.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/connect-to.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/cookie_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/default-scheme.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/externalsocket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/fileupload.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftp-delete.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftp-wildcard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpgetinfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpgetresp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpsget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpupload.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpuploadfrommem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ftpuploadresume.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/getinfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/getinmemory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/getredirect.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/getreferrer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/headerapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/hsts-preload.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http-options.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http-post.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http2-download.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http2-pushinmemory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http2-serverpush.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http2-upload.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/http3-present.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/httpcustomheader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/httpput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/httpput-postfields.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/https.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-append.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-authzid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-copy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-create.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-delete.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-examine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-fetch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-lsub.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-multi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-noop.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-search.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-ssl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-store.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/imap-tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/ipv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/keepalive.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/localport.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/log_failed_transfers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/maxconnects.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-debugcallback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-double.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-formadd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-legacy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-post.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/multi-single.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/netrc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/parseurl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/persistent.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-authzid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-dele.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-multi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-noop.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-retr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-ssl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-stat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-top.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/pop3-uidl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/post-callback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/postinmemory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/postit2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/postit2-formadd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/progressfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/protofeats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/range.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/resolve.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/rtsp-options.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/sendrecv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/sepheaders.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/sftpget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/sftpuploadresume.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/shared-connection-cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/simple.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/simplepost.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/simplessl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-authzid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-expn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-mail.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-mime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-multi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-ssl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/smtp-vrfy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/sslbackend.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/synctime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/unixsocket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/url2file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/urlapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/websocket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/websocket-cb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/curl-src/docs/examples/websocket-updown.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

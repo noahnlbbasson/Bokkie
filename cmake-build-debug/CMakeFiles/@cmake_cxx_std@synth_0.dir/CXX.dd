@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi: dyndep
+  restat = 1
+
+build CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi: dyndep | CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi
+  restat = 1
+

@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Projects/CLionProjects/Bokkie/cmake-build-test/cmake_install.cmake",
+		"E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/cmake_install.cmake",
+		"E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/scripts/cmake_install.cmake",
+		"E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/lib/cmake_install.cmake",
+		"E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/docs/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

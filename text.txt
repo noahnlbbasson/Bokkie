@@ -1,0 +1,144 @@
+# COASTAL AGRICULTURE RESEARCH PROJECT
+Document ID: CARP-2026-084
+Date: 14 September 2026
+Author: Michael Anderson
+Department: Environmental Research and Development
+
+---
+
+## 1. Project Overview
+
+The Coastal Agriculture Research Project investigates the feasibility of establishing sustainable agricultural operations in coastal regions of South Africa.
+
+The research focuses on soil quality, groundwater availability, seasonal weather patterns, crop selection, and the economic viability of small-scale farming operations.
+
+The initial research area covers approximately 145 hectares of agricultural land situated outside George in the Western Cape.
+
+The project is expected to run for 18 months, with the first six months dedicated to environmental assessments and preliminary research.
+
+## 2. Environmental Findings
+
+Initial soil assessments identified three primary soil classifications:
+
+- Sandy loam: 52% of sampled locations.
+- Clay loam: 31% of sampled locations.
+- Silty soil: 17% of sampled locations.
+
+The average recorded soil pH was 6.4.
+
+Groundwater samples were collected from four separate locations. The average groundwater temperature was 18.7°C.
+
+Researchers identified inconsistent rainfall distribution as one of the primary challenges affecting agricultural productivity in the region.
+
+## 3. Financial Estimates
+
+The preliminary budget was calculated as follows:
+
+| Expense | Estimated Cost |
+|---|---:|
+| Land preparation | R185,000 |
+| Irrigation infrastructure | R320,000 |
+| Soil analysis | R42,500 |
+| Agricultural equipment | R275,000 |
+| Labour | R160,000 |
+| Transportation | R37,500 |
+| Administrative expenses | R25,000 |
+
+The initial estimated project expenditure is R1,045,000.
+
+An additional contingency reserve of 12% has been recommended.
+
+## 4. Crop Selection
+
+The research team shortlisted five potential crops based on their suitability for the region.
+
+| Crop | Estimated Yield per Hectare | Growing Period |
+|---|---:|---|
+| Blueberries | 8,500 kg | 12 months |
+| Avocados | 10,000 kg | 36 months |
+| Potatoes | 32,000 kg | 4 months |
+| Tomatoes | 45,000 kg | 5 months |
+| Butternut | 18,000 kg | 5 months |
+
+Potatoes and tomatoes were identified as potential candidates for the first production cycle due to their relatively short growing periods.
+
+Avocados were considered a longer-term investment.
+
+## 5. Research Meeting Notes
+
+Meeting date: 9 September 2026
+
+Attendees:
+- Michael Anderson — Project Coordinator
+- Sarah Williams — Agricultural Specialist
+- James Peterson — Financial Analyst
+- Emily Thompson — Environmental Consultant
+
+Decisions:
+
+1. Conduct additional groundwater testing before installing irrigation systems.
+2. Obtain quotations from at least three agricultural equipment suppliers.
+3. Prioritise short-cycle crops during the initial production phase.
+4. Reassess the project's financial viability after the first environmental assessment.
+5. Submit the preliminary findings by 30 October 2026.
+
+## 6. Additional Research Information
+
+The research team recorded the following monthly rainfall measurements:
+
+January: 42 mm
+February: 38 mm
+March: 51 mm
+April: 67 mm
+May: 83 mm
+June: 105 mm
+July: 112 mm
+August: 96 mm
+September: 74 mm
+October: 61 mm
+November: 48 mm
+December: 39 mm
+
+The highest recorded monthly rainfall occurred in July.
+
+The lowest recorded monthly rainfall occurred in February.
+
+## 7. Internal Reference
+
+Supplier Reference: AGRI-SUP-7291
+
+Preferred Equipment Supplier: GreenField Agricultural Solutions
+
+Research Station Coordinates:
+Latitude: -33.9631
+Longitude: 22.4617
+
+The next scheduled project review is 18 November 2026.
+
+## 8. Document Verification Questions
+
+The following questions can be used to verify the accuracy of information extracted from this document.
+
+1. What is the full name of the research project?
+2. Where is the research area located?
+3. How many hectares does the project cover?
+4. What percentage of sampled locations contained sandy loam?
+5. What was the average recorded soil pH?
+6. What is the total estimated project expenditure before contingency?
+7. How much money should be allocated to the contingency reserve?
+8. Which crop has the highest estimated yield per hectare?
+9. Which month recorded the highest rainfall?
+10. Who attended the research meeting?
+11. What is the supplier reference number?
+12. When are the preliminary findings due?
+13. What was the combined rainfall recorded during January, February and March?
+14. What is the difference between the highest and lowest monthly rainfall measurements?
+15. Which two crops were prioritised for the initial production phase?
+
+## 9. Final Instruction
+
+Prepare a short research summary using only the information contained in this document.
+
+Clearly distinguish between directly reported information and any calculations performed independently.
+
+END OF DOCUMENT

@@ -1,0 +1,24 @@
+{
+	"interface-objects" : {},
+	"modules" : {},
+	"references" : 
+	{
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/1cf27f522794.bmi"
+		},
+		"std.compat" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/207460f82850.bmi"
+		}
+	},
+	"usages" : 
+	{
+		"std.compat" : 
+		[
+			"std"
+		]
+	}
+}

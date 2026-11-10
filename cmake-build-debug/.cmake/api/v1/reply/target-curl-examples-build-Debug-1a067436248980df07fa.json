@@ -1,0 +1,69 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/curl-src/docs/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "curl-example-websocket-updown::@73eb91aeaddc9ac8b856"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "curl-example-all::@73eb91aeaddc9ac8b856"
+		}
+	],
+	"id" : "curl-examples-build::@73eb91aeaddc9ac8b856",
+	"name" : "curl-examples-build",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "curl-example-websocket-updown::@73eb91aeaddc9ac8b856"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "curl-example-all::@73eb91aeaddc9ac8b856"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/curl-build/docs/examples",
+		"source" : "cmake-build-debug/_deps/curl-src/docs/examples"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

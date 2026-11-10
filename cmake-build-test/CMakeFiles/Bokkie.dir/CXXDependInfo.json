@@ -1,0 +1,33 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/Projects/CLionProjects/Bokkie/cmake-build-test",
+	"dir-cur-src" : "E:/Projects/CLionProjects/Bokkie",
+	"dir-top-bld" : "E:/Projects/CLionProjects/Bokkie/cmake-build-test",
+	"dir-top-src" : "E:/Projects/CLionProjects/Bokkie",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps\\curl-src\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"E:/Projects/CLionProjects/Bokkie/cmake-build-test/CMakeFiles/@cmake_cxx_std@synth_0.dir"
+	],
+	"module-dir" : "E:/Projects/CLionProjects/Bokkie/cmake-build-test/CMakeFiles/Bokkie.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Bokkie.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/main.cpp"
+		}
+	}
+}
