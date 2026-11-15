@@ -88,7 +88,3 @@ OS-level sandbox.
 ## Configuration
 
 The server URL is hardcoded in `Client.cpp`. Change the `CURLOPT_URL` line if you're running your LLM on a different port or host.
-
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
