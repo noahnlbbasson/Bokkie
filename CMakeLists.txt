@@ -4,6 +4,8 @@ project(Bokkie)
 set(CMAKE_CXX_STANDARD 20)
 
 include(FetchContent)
+configure_file(config.json config.json COPYONLY)
+configure_file(brain/memory.md brain/memory.md COPYONLY)
 
 set(BUILD_CURL_EXE OFF CACHE BOOL "" FORCE)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
@@ -29,11 +31,26 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(curl json)
 
 add_executable(Bokkie main.cpp
+        ProcessRunner.cpp
+        ProcessRunner.h
         Client.cpp
         Client.h
         Tools.cpp
         Tools.h
         ToolRegistry.cpp
-        ToolRegistry.h)
+        ToolRegistry.h
+        brain/Conversation.cpp
+        brain/Conversation.h
+        brain/Memory.cpp
+        brain/Memory.h
+        brain/TaskState.cpp
+        brain/TaskState.h
+        Runtime.cpp
+        Runtime.h
+        Agent.cpp
+        Agent.h)
+
+target_compile_definitions(Bokkie PRIVATE
+        "BOKKIE_TASK_STATE_FILE=\"${CMAKE_CURRENT_SOURCE_DIR}/brain/task_state.json\"")
 
 target_link_libraries(Bokkie PRIVATE CURL::libcurl nlohmann_json::nlohmann_json)

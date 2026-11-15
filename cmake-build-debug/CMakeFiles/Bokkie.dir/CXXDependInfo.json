@@ -22,10 +22,25 @@
 	"module-dir" : "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir",
 	"sources" : 
 	{
+		"CMakeFiles/Bokkie.dir/Agent.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/Agent.cpp"
+		},
 		"CMakeFiles/Bokkie.dir/Client.cpp.obj" : 
 		{
 			"language" : "CXX",
 			"source" : "E:/Projects/CLionProjects/Bokkie/Client.cpp"
+		},
+		"CMakeFiles/Bokkie.dir/ProcessRunner.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/ProcessRunner.cpp"
+		},
+		"CMakeFiles/Bokkie.dir/Runtime.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/Runtime.cpp"
 		},
 		"CMakeFiles/Bokkie.dir/ToolRegistry.cpp.obj" : 
 		{
@@ -36,6 +51,21 @@
 		{
 			"language" : "CXX",
 			"source" : "E:/Projects/CLionProjects/Bokkie/Tools.cpp"
+		},
+		"CMakeFiles/Bokkie.dir/brain/Conversation.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/brain/Conversation.cpp"
+		},
+		"CMakeFiles/Bokkie.dir/brain/Memory.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/brain/Memory.cpp"
+		},
+		"CMakeFiles/Bokkie.dir/brain/TaskState.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Projects/CLionProjects/Bokkie/brain/TaskState.cpp"
 		},
 		"CMakeFiles/Bokkie.dir/main.cpp.obj" : 
 		{

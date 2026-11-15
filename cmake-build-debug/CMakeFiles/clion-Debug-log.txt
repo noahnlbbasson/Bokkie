@@ -24,6 +24,6 @@ CMake Warning at cmake-build-debug/_deps/curl-src/CMakeLists.txt:564 (message):
 -- Features: alt-svc AsynchDNS HSTS HTTPS-proxy IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI threadsafe UnixSockets
 -- Enabled SSL backends: Schannel
 -- Using the multi-header code from E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include/
--- Configuring done (1.8s)
+-- Configuring done (3.4s)
 -- Generating done (0.2s)
 -- Build files have been written to: E:/Projects/CLionProjects/Bokkie/cmake-build-debug

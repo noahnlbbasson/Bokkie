@@ -9,7 +9,10 @@
 		"CMakeFiles/@cmake_cxx_std@synth_0.dir/1cf27f522794.bmi" : 
 		{
 			"bmi-only" : true,
-			"compile-features" : [],
+			"compile-features" : 
+			[
+				"cxx_std_11"
+			],
 			"compile-options" : [],
 			"definitions" : [],
 			"destination" : null,
@@ -23,7 +26,10 @@
 		"CMakeFiles/@cmake_cxx_std@synth_0.dir/207460f82850.bmi" : 
 		{
 			"bmi-only" : true,
-			"compile-features" : [],
+			"compile-features" : 
+			[
+				"cxx_std_11"
+			],
 			"compile-options" : [],
 			"definitions" : [],
 			"destination" : null,

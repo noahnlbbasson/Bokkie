@@ -16181,3 +16181,1748 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: "E:/CLion 2026.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/libstdc++.modules.json"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_350b9
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_350b9.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_350b9.dir/CurlTests.c.obj -o cmTC_350b9.exe -Wl,--out-implib,libcmTC_350b9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: "E:/CLion 2026.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/libstdc++.modules.json"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_97172
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_97172.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_97172.dir/CurlTests.c.obj -o cmTC_97172.exe -Wl,--out-implib,libcmTC_97172.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_f1cb0
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_f1cb0.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_f1cb0.dir/CurlTests.c.obj -o cmTC_f1cb0.exe -Wl,--out-implib,libcmTC_f1cb0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3bb71
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_3bb71.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_3bb71.dir/CurlTests.c.obj -o cmTC_3bb71.exe -Wl,--out-implib,libcmTC_3bb71.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2ac02
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_2ac02.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_2ac02.dir/CurlTests.c.obj -o cmTC_2ac02.exe -Wl,--out-implib,libcmTC_2ac02.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c0ad8
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_c0ad8.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_c0ad8.dir/CurlTests.c.obj -o cmTC_c0ad8.exe -Wl,--out-implib,libcmTC_c0ad8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_4a986
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_4a986.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_4a986.dir/CurlTests.c.obj -o cmTC_4a986.exe -Wl,--out-implib,libcmTC_4a986.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_e3f29
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_e3f29.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_e3f29.dir/CurlTests.c.obj -o cmTC_e3f29.exe -Wl,--out-implib,libcmTC_e3f29.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9018e
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_9018e.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_9018e.dir/CurlTests.c.obj -o cmTC_9018e.exe -Wl,--out-implib,libcmTC_9018e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_cf7d8
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_cf7d8.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_cf7d8.dir/CurlTests.c.obj -o cmTC_cf7d8.exe -Wl,--out-implib,libcmTC_cf7d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_01b4f
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_01b4f.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_01b4f.dir/CurlTests.c.obj -o cmTC_01b4f.exe -Wl,--out-implib,libcmTC_01b4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3ca75
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_3ca75.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_3ca75.dir/CurlTests.c.obj -o cmTC_3ca75.exe -Wl,--out-implib,libcmTC_3ca75.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9094d
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_9094d.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_9094d.dir/CurlTests.c.obj -o cmTC_9094d.exe -Wl,--out-implib,libcmTC_9094d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_374e4
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_374e4.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_374e4.dir/CurlTests.c.obj -o cmTC_374e4.exe -Wl,--out-implib,libcmTC_374e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b5f54
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_b5f54.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_b5f54.dir/CurlTests.c.obj -o cmTC_b5f54.exe -Wl,--out-implib,libcmTC_b5f54.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_043ae
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_043ae.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_043ae.dir/CurlTests.c.obj -o cmTC_043ae.exe -Wl,--out-implib,libcmTC_043ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_28774
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_28774.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_28774.dir/CurlTests.c.obj -o cmTC_28774.exe -Wl,--out-implib,libcmTC_28774.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_34d9a
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_34d9a.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_34d9a.dir/CurlTests.c.obj -o cmTC_34d9a.exe -Wl,--out-implib,libcmTC_34d9a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_36549
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_36549.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_36549.dir/CurlTests.c.obj -o cmTC_36549.exe -Wl,--out-implib,libcmTC_36549.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_822e0
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_822e0.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_822e0.dir/CurlTests.c.obj -o cmTC_822e0.exe -Wl,--out-implib,libcmTC_822e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_75a4e
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_75a4e.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_75a4e.dir/CurlTests.c.obj -o cmTC_75a4e.exe -Wl,--out-implib,libcmTC_75a4e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d5c14
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_d5c14.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_d5c14.dir/CurlTests.c.obj -o cmTC_d5c14.exe -Wl,--out-implib,libcmTC_d5c14.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_01662
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_01662.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_01662.dir/CurlTests.c.obj -o cmTC_01662.exe -Wl,--out-implib,libcmTC_01662.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_e3e2b
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_e3e2b.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_e3e2b.dir/CurlTests.c.obj -o cmTC_e3e2b.exe -Wl,--out-implib,libcmTC_e3e2b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d969b
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_d969b.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_d969b.dir/CurlTests.c.obj -o cmTC_d969b.exe -Wl,--out-implib,libcmTC_d969b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_e691f
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_e691f.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_e691f.dir/CurlTests.c.obj -o cmTC_e691f.exe -Wl,--out-implib,libcmTC_e691f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3aee2
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_3aee2.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_3aee2.dir/CurlTests.c.obj -o cmTC_3aee2.exe -Wl,--out-implib,libcmTC_3aee2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9be40
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_9be40.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_9be40.dir/CurlTests.c.obj -o cmTC_9be40.exe -Wl,--out-implib,libcmTC_9be40.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b83e4
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_b83e4.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_b83e4.dir/CurlTests.c.obj -o cmTC_b83e4.exe -Wl,--out-implib,libcmTC_b83e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_4932c
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_4932c.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_4932c.dir/CurlTests.c.obj -o cmTC_4932c.exe -Wl,--out-implib,libcmTC_4932c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_be91b
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_be91b.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_be91b.dir/CurlTests.c.obj -o cmTC_be91b.exe -Wl,--out-implib,libcmTC_be91b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_1d939
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_1d939.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_1d939.dir/CurlTests.c.obj -o cmTC_1d939.exe -Wl,--out-implib,libcmTC_1d939.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_ef39b
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_ef39b.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_ef39b.dir/CurlTests.c.obj -o cmTC_ef39b.exe -Wl,--out-implib,libcmTC_ef39b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_e683f
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_e683f.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_e683f.dir/CurlTests.c.obj -o cmTC_e683f.exe -Wl,--out-implib,libcmTC_e683f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_73372
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_73372.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_73372.dir/CurlTests.c.obj -o cmTC_73372.exe -Wl,--out-implib,libcmTC_73372.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_aad4a
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_aad4a.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_aad4a.dir/CurlTests.c.obj -o cmTC_aad4a.exe -Wl,--out-implib,libcmTC_aad4a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_58869
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_58869.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_58869.dir/CurlTests.c.obj -o cmTC_58869.exe -Wl,--out-implib,libcmTC_58869.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d6b4b
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_d6b4b.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_d6b4b.dir/CurlTests.c.obj -o cmTC_d6b4b.exe -Wl,--out-implib,libcmTC_d6b4b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_a2ef5
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_a2ef5.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_a2ef5.dir/CurlTests.c.obj -o cmTC_a2ef5.exe -Wl,--out-implib,libcmTC_a2ef5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_1e258
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_1e258.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_1e258.dir/CurlTests.c.obj -o cmTC_1e258.exe -Wl,--out-implib,libcmTC_1e258.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9e050
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_9e050.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        FAILED: [code=1] CMakeFiles/cmTC_9e050.dir/CurlTests.c.obj 
+        "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_9e050.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        
+        cc1.exe: out of memory allocating 65536 bytes
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_dc787
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_dc787.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_dc787.dir/CurlTests.c.obj -o cmTC_dc787.exe -Wl,--out-implib,libcmTC_dc787.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: [code=1] cmTC_dc787.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_dc787.dir/CurlTests.c.obj -o cmTC_dc787.exe -Wl,--out-implib,libcmTC_dc787.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        collect2.exe: error: ld returned 45 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c6009
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_c6009.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_c6009.dir/CurlTests.c.obj -o cmTC_c6009.exe -Wl,--out-implib,libcmTC_c6009.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_f1629
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_f1629.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_f1629.dir/CurlTests.c.obj -o cmTC_f1629.exe -Wl,--out-implib,libcmTC_f1629.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_30de3
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_30de3.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_30de3.dir/CurlTests.c.obj -o cmTC_30de3.exe -Wl,--out-implib,libcmTC_30de3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_f5378
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -o CMakeFiles/cmTC_f5378.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_f5378.dir/CurlTests.c.obj -o cmTC_f5378.exe -Wl,--out-implib,libcmTC_f5378.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_11c2b
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_11c2b.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_11c2b.dir/CurlTests.c.obj -o cmTC_11c2b.exe -Wl,--out-implib,libcmTC_11c2b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_63f6a
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_63f6a.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_63f6a.dir/CurlTests.c.obj -o cmTC_63f6a.exe -Wl,--out-implib,libcmTC_63f6a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_68138
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_68138.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_68138.dir/CurlTests.c.obj -o cmTC_68138.exe -Wl,--out-implib,libcmTC_68138.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_1ca95
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_1ca95.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_1ca95.dir/CurlTests.c.obj -o cmTC_1ca95.exe -Wl,--out-implib,libcmTC_1ca95.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b568a
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_b568a.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_b568a.dir/CurlTests.c.obj -o cmTC_b568a.exe -Wl,--out-implib,libcmTC_b568a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_78f0f
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_78f0f.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_78f0f.dir/CurlTests.c.obj -o cmTC_78f0f.exe -Wl,--out-implib,libcmTC_78f0f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_304fd
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_304fd.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_304fd.dir/CurlTests.c.obj -o cmTC_304fd.exe -Wl,--out-implib,libcmTC_304fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_23dc1
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_23dc1.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_23dc1.dir/CurlTests.c.obj -o cmTC_23dc1.exe -Wl,--out-implib,libcmTC_23dc1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b7ef4
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_b7ef4.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_b7ef4.dir/CurlTests.c.obj -o cmTC_b7ef4.exe -Wl,--out-implib,libcmTC_b7ef4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3bd78
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_3bd78.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_3bd78.dir/CurlTests.c.obj -o cmTC_3bd78.exe -Wl,--out-implib,libcmTC_3bd78.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:238 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b24d8
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_b24d8.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:369:9: note: '#pragma message: _WIN32_WINNT=0x601'
+          369 | #pragma message("_WIN32_WINNT=" expand(_WIN32_WINNT))
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DHAVE_WIN32_WINNT   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_b24d8.dir/CurlTests.c.obj -o cmTC_b24d8.exe -Wl,--out-implib,libcmTC_b24d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "cmake-build-debug/_deps/curl-src/CMakeLists.txt:250 (curl_internal_test)"
+    directories:
+      source: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake"
+    buildResult:
+      variable: "MINGW64_VERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "E:/CLion 2026.3/bin/ninja/win/x64/ninja.exe" -v cmTC_984a7
+        [1/2] "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe"   -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN -fdiagnostics-color=always -o CMakeFiles/cmTC_984a7.dir/CurlTests.c.obj -c E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c
+        E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:384:9: note: '#pragma message: MINGW64_VERSION=14.0'
+          384 | #pragma message("MINGW64_VERSION=" \\
+              |         ^~~~~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\CLion 2026.3\\bin\\mingw\\bin\\gcc.exe" -DMINGW64_VERSION   -DWIN32_LEAN_AND_MEAN  CMakeFiles/cmTC_984a7.dir/CurlTests.c.obj -o cmTC_984a7.exe -Wl,--out-implib,libcmTC_984a7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

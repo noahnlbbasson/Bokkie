@@ -13,6 +13,16 @@
 
 using json = nlohmann::json;
 
+struct ToolCall {
+    std::string id;
+    std::string name;
+    std::string raw_arguments;
+    std::string original_raw_arguments;
+    json arguments = json::object();
+    bool id_valid = false;
+    bool arguments_valid = false;
+};
+
 
 
 class ToolRegistry {

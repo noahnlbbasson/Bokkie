@@ -161,3 +161,11 @@ E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/docs/examples
 E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/docs/examples/CMakeFiles/install.dir
 E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/docs/examples/CMakeFiles/install/local.dir
 E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/curl-build/docs/examples/CMakeFiles/install/strip.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/package.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/package_source.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/edit_cache.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/rebuild_cache.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/list_install_components.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/install.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/install/local.dir
+E:/Projects/CLionProjects/Bokkie/cmake-build-test/_deps/json-build/CMakeFiles/install/strip.dir

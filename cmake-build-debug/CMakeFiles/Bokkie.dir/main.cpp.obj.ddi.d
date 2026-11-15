@@ -1,6 +1,6 @@
 CMakeFiles\Bokkie.dir\main.cpp.obj.ddi: \
  E:/Projects/CLionProjects/Bokkie/main.cpp \
- E:/Projects/CLionProjects/Bokkie/Client.h \
+ E:/Projects/CLionProjects/Bokkie/Agent.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -108,7 +108,17 @@ CMakeFiles\Bokkie.dir\main.cpp.obj.ddi: \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h \
- E:/Projects/CLionProjects/Bokkie/ToolRegistry.h \
+ E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include/nlohmann/json.hpp \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algo.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algobase.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/functional \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_function.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
@@ -126,17 +136,6 @@ CMakeFiles\Bokkie.dir\main.cpp.obj.ddi: \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/array \
- E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include/nlohmann/json.hpp \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algo.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algobase.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iterator \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stream_iterator.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
@@ -317,5 +316,7 @@ CMakeFiles\Bokkie.dir\main.cpp.obj.ddi: \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/any \
  E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include/nlohmann/detail/macro_unscope.hpp \
  E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- E:/Projects/CLionProjects/Bokkie/Tools.h \
+ E:/Projects/CLionProjects/Bokkie/ToolRegistry.h \
+ E:/Projects/CLionProjects/Bokkie/brain/Conversation.h \
+ E:/Projects/CLionProjects/Bokkie/ToolRegistry.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream

@@ -6,20 +6,27 @@
 #include <nlohmann/json.hpp>
 
 #include <iostream>
+#include <fstream>
 #include <string>
-
-
+#include <functional>
+#include <filesystem>
+#include <stdexcept>
+#include <map>
+#include <vector>
+#include <cstdlib>
 
 namespace {
 using json = nlohmann::json;
 
 
 struct ResponseContext {
-    bool stream;
+    std::function<void(const std::string&)> onToken;
     std::string body;
     std::string pendingLine;
     std::string completion;
     std::string error;
+    TokenUsage usage;
+    std::map<size_t, ToolCall> toolCalls;
 };
 
 bool ProcessSseLine(const std::string& line, ResponseContext& context) {
@@ -50,6 +57,19 @@ bool ProcessSseLine(const std::string& line, ResponseContext& context) {
         return false;
     }
 
+    const auto usage = event.find("usage");
+    if (usage != event.end() && usage->is_object()) {
+        const auto promptTokens = usage->find("prompt_tokens");
+        const auto completionTokens = usage->find("completion_tokens");
+        if (promptTokens != usage->end() && promptTokens->is_number_integer() &&
+            completionTokens != usage->end() && completionTokens->is_number_integer()) {
+            context.usage.prompt_tokens = promptTokens->get<int>();
+            context.usage.completion_tokens = completionTokens->get<int>();
+            context.usage.available =
+                context.usage.prompt_tokens >= 0 && context.usage.completion_tokens >= 0;
+        }
+    }
+
     const auto choices = event.find("choices");
     if (choices == event.end() || !choices->is_array() || choices->empty()) {
         return true;
@@ -60,11 +80,49 @@ bool ProcessSseLine(const std::string& line, ResponseContext& context) {
         return true;
     }
 
+    const auto toolCalls = delta->find("tool_calls");
+    if (toolCalls != delta->end() && toolCalls->is_array()) {
+        for (const auto& partial : *toolCalls) {
+            if (!partial.is_object() || !partial.contains("index") ||
+                (!partial["index"].is_number_unsigned() &&
+                 !partial["index"].is_number_integer())) {
+                context.error = "Received a malformed tool call in streaming response.";
+                return false;
+            }
+
+            const auto index_value = partial["index"].get<std::int64_t>();
+            if (index_value < 0) {
+                context.error = "Received a negative tool-call index in streaming response.";
+                return false;
+            }
+            ToolCall& call = context.toolCalls[static_cast<size_t>(index_value)];
+            if (partial.contains("id") && partial["id"].is_string()) {
+                call.id += partial["id"].get<std::string>();
+                call.id_valid = true;
+            }
+
+            const auto function = partial.find("function");
+            if (function == partial.end() || !function->is_object()) {
+                continue;
+            }
+            const auto name = function->find("name");
+            if (name != function->end() && name->is_string()) {
+                call.name += name->get<std::string>();
+            }
+            const auto arguments = function->find("arguments");
+            if (arguments != function->end() && arguments->is_string()) {
+                call.raw_arguments += arguments->get<std::string>();
+            }
+        }
+    }
+
     const auto content = delta->find("content");
     if (content != delta->end() && content->is_string()) {
         const std::string token = content->get<std::string>();
         context.completion += token;
-        std::cout << token << std::flush;
+        if (context.onToken) {
+            context.onToken(token);
+        }
     }
 
     return true;
@@ -74,10 +132,6 @@ size_t WriteCallback(char* contents, size_t size, size_t nmemb, void* userp) {
     auto* context = static_cast<ResponseContext*>(userp);
     const size_t totalSize = size * nmemb;
     context->body.append(contents, totalSize);
-
-    if (!context->stream) {
-        return totalSize;
-    }
 
     context->pendingLine.append(contents, totalSize);
     size_t newline = context->pendingLine.find('\n');
@@ -95,109 +149,82 @@ size_t WriteCallback(char* contents, size_t size, size_t nmemb, void* userp) {
 
     return totalSize;
 }
+
+size_t AppendBodyCallback(char* contents, size_t size, size_t nmemb, void* userp) {
+    auto* body = static_cast<std::string*>(userp);
+    const size_t totalSize = size * nmemb;
+    body->append(contents, totalSize);
+    return totalSize;
+}
 }
 
-std::ostream& Client::send_payload(const std::string& prompt, ToolRegistry& registry, bool debug, bool stream) {
-
-    std::string system_prompt = R"(
-    "You are Bokkie, an autonomous AI agent operating through a local C++ execution environment.
-
-    You have access to a collection of tool/s provided by the application.
-
-    TOOL USAGE:
-    - You must inspect the available tool definitions before deciding how to interact with the environment.
-    - Each tool/s has a specific name, description and set of required arguments.
-    - When a task requires an available tool, call the appropriate tool rather than pretending to have performed the operation.
-    - Always provide arguments in the exact format specified by the tool definition.
-    - You may call multiple tools when a task requires multiple operations.
-    - Wait for the execution result before deciding what to do next.
-    - Use tool results to inform subsequent decisions.
-    - Never fabricate tool execution results.
-
-    FILE OPERATIONS:
-    - Always inspect relevant files before modifying existing code.
-    - Use paths within the permitted workspace.
-    - Report errors accurately.
-
-    AGENT INSTRUCTIONS:
-    - You may create and update your own persistent agent instructions using the provided instruction-management tools.
-    - Changes to persistent instructions should reflect improvements to your behaviour, working methods and preferences.
-    - Never overwrite the application's protected core instructions.
-    - Only modify persistent instructions when explicitly requested or when the application authorizes the change.
-    - After updating persistent instructions, use the updated instructions in subsequent conversations.
-
-    EXECUTION:
-    You are responsible for planning tasks, selecting appropriate tools, interpreting their results and deciding what to do next.
-    A tool call is a request for the application to perform an operation. It is not evidence that the operation has succeeded.
-    Always verify the result before reporting completion.
-
-    TOOL CALL FORMAT:
-    When you need to execute a tool, respond with ONLY a valid JSON object
-    using the following structure:
-    {
-        "tool_call": {
-            "name": "tool_name",
-            "arguments": {
-                "argument_name": "argument_value"
-            }
-        }
+ChatResponse Client::send_payload(const std::vector<json>& messages, std::string system_prompt,
+                                  ToolRegistry& registry,
+                                  const std::function<void(const std::string&)>& on_token,
+                                  bool debug) {
+    json apiMessages = json::array({
+        {{"role", "system"}, {"content", system_prompt}}
+    });
+    for (const auto& message : messages) {
+        apiMessages.push_back(message);
     }
-    Rules:
-    - The tool name must match an available tool exactly.
-    - Arguments must match the tool's specified parameters.
-    - Do not wrap tool calls in Markdown code blocks.
-    - Do not include explanations alongside a tool call.
-    - Only request one tool at a time.
-    - When you receive a tool execution result, use it to continue the task.
-    - When no tool is required, respond normally in natural language.
 
-    AVAILABLE TOOL/s:
-
-    )";
-
-    std::string available_tools = registry.list_registered_tools().dump(2);
-    system_prompt += available_tools;
-
-    const json payload = {
-        {"messages", json::array({
-            {{"role", "system"}, {"content", system_prompt}},
-            {{"role", "user"}, {"content", prompt}}
-        })},
-        {"temperature", 0.7},
-        {"max_tokens", 512},
-        {"stream", stream}
+    const char* temperature_value = std::getenv("BOKKIE_TEMPERATURE");
+    const double temperature = temperature_value ? std::stod(temperature_value) : 0.7;
+    json payload = {
+        {"messages", std::move(apiMessages)},
+        {"tools", registry.list_registered_tools()},
+        {"tool_choice", "auto"},
+        {"temperature", temperature},
+        {"stream", true},
+        {"stream_options", {{"include_usage", true}}}
     };
+    if (const char* seed_value = std::getenv("BOKKIE_SEED")) {
+        payload["seed"] = std::stoi(seed_value);
+    }
     const std::string requestBody = payload.dump();
 
+    ChatResponse chatResponse;
     const CURLcode globalResult = curl_global_init(CURL_GLOBAL_DEFAULT);
     if (globalResult != CURLE_OK) {
-        std::cerr << "Failed to initialize curl: " << curl_easy_strerror(globalResult) << '\n';
-        return {};
+        chatResponse.error = "Failed to initialize curl: " +
+                             std::string(curl_easy_strerror(globalResult));
+        std::cerr << chatResponse.error << '\n';
+        return chatResponse;
     }
 
     CURL* curl = curl_easy_init();
     if (!curl) {
-        std::cerr << "Failed to create curl request.\n";
+        chatResponse.error = "Failed to create curl request.";
+        std::cerr << chatResponse.error << '\n';
         curl_global_cleanup();
-        return {};
+        return chatResponse;
     }
 
-    ResponseContext response{stream};
+    ResponseContext response;
+    response.onToken = on_token;
     curl_slist* headers = nullptr;
     headers = curl_slist_append(headers, "Content-Type: application/json");
     headers = curl_slist_append(
         headers,
-        stream ? "Accept: text/event-stream" : "Accept: application/json"
+        "Accept: text/event-stream"
     );
 
     if (!headers) {
-        std::cerr << "Failed to allocate HTTP headers.\n";
+        chatResponse.error = "Failed to allocate HTTP headers.";
+        std::cerr << chatResponse.error << '\n';
         curl_easy_cleanup(curl);
         curl_global_cleanup();
-        return {};
+        return chatResponse;
     }
 
-    curl_easy_setopt(curl, CURLOPT_URL, "http://localhost:8080/v1/chat/completions");
+    std::string server_url = "http://localhost:8080";
+    if (const char* configured_server = std::getenv("BOKKIE_SERVER_URL")) {
+        server_url = configured_server;
+    }
+    if (!server_url.empty() && server_url.back() == '/') server_url.pop_back();
+    const std::string completion_url = server_url + "/v1/chat/completions";
+    curl_easy_setopt(curl, CURLOPT_URL, completion_url.c_str());
     curl_easy_setopt(curl, CURLOPT_POST, 1L);
     curl_easy_setopt(curl, CURLOPT_POSTFIELDS, requestBody.c_str());
     curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE_LARGE, static_cast<curl_off_t>(requestBody.size()));
@@ -211,52 +238,107 @@ std::ostream& Client::send_payload(const std::string& prompt, ToolRegistry& regi
 
     if (result != CURLE_OK) {
         if (!response.error.empty()) {
-            std::cerr << response.error << '\n';
+            chatResponse.error = response.error;
         } else {
-            std::cerr << "Request failed: " << curl_easy_strerror(result) << '\n';
+            chatResponse.error = "Request failed: " + std::string(curl_easy_strerror(result));
         }
+        std::cerr << chatResponse.error << '\n';
     } else if (statusCode < 200 || statusCode >= 300) {
-        std::cerr << "HTTP request failed (" << statusCode << "): "
-                  << response.body << '\n';
-    } else if (stream) {
+        chatResponse.error = "HTTP request failed (" + std::to_string(statusCode) +
+                             "): " + response.body;
+        std::cerr << chatResponse.error << '\n';
+    } else {
         if (!response.pendingLine.empty()) {
             if (!ProcessSseLine(response.pendingLine, response) && !response.error.empty()) {
-                std::cerr << response.error << '\n';
+                chatResponse.error = response.error;
+                std::cerr << chatResponse.error << '\n';
             }
         }
-    } else {
-        const json resultJson = json::parse(response.body, nullptr, false);
-        if (resultJson.is_discarded()) {
-            std::cerr << "Server returned invalid JSON: " << response.body << '\n';
-        } else if (resultJson.contains("error")) {
-            std::cerr << "Server error: " << resultJson["error"].dump() << '\n';
-        } else if (resultJson.contains("choices")
-                   && resultJson["choices"].is_array()
-                   && !resultJson["choices"].empty()
-                   && resultJson["choices"][0].contains("message")
-                   && resultJson["choices"][0]["message"].contains("content")
-                   && resultJson["choices"][0]["message"]["content"].is_string()) {
-            response.completion = resultJson["choices"][0]["message"]["content"].get<std::string>();
-            // this streams the output to terminal but does not return a streamed answer which is what I want instead of this
-            // because it will allow me to implement parsing logic in main where I call the function, instead
-            // of parsing within the function here mixing up the concerns, a function should only do one thing and
-            // send payload should only and simply return the streamed output as if it were happening below so I
-            // can connect this function call to the active parser in main as it returns the streamed output as it
-            // actively returning the streamed output the parser is actively working with the streamed output in main.
-            // Do you understand?
-            std::cout << response.completion;
-        } else {
-            std::cerr << "Response did not contain choices[0].message.content: "
-                      << response.body << '\n';
-        }
+        if (!response.error.empty()) chatResponse.error = response.error;
     }
 
     if (debug && !response.body.empty()) {
         std::cerr << "\nRaw response:\n" << response.body << '\n';
     }
 
+    if (result == CURLE_OK && statusCode >= 200 && statusCode < 300 &&
+        response.error.empty()) {
+        chatResponse.content = std::move(response.completion);
+        chatResponse.usage = response.usage;
+        for (auto& [index, call] : response.toolCalls) {
+            if (!call.id_valid) {
+                call.id = "bokkie_invalid_tool_call_" + std::to_string(index);
+            }
+            call.original_raw_arguments = call.raw_arguments;
+            const json arguments = json::parse(call.raw_arguments, nullptr, false);
+            if (!arguments.is_discarded() && arguments.is_object()) {
+                call.arguments = arguments;
+                call.arguments_valid = true;
+            } else {
+                call.raw_arguments = "{}";
+            }
+            chatResponse.tool_calls.push_back(std::move(call));
+        }
+    }
+
     curl_slist_free_all(headers);
     curl_easy_cleanup(curl);
     curl_global_cleanup();
-    return response.completion;
+    return chatResponse;
+}
+
+int Client::get_max_context_tokens() {
+    const CURLcode globalResult = curl_global_init(CURL_GLOBAL_DEFAULT);
+    if (globalResult != CURLE_OK) {
+        throw std::runtime_error(
+            "Failed to initialize curl: " + std::string(curl_easy_strerror(globalResult)));
+    }
+
+    CURL* curl = curl_easy_init();
+    if (!curl) {
+        curl_global_cleanup();
+        throw std::runtime_error("Failed to create llama.cpp metadata request.");
+    }
+
+    std::string body;
+    std::string server_url = "http://localhost:8080";
+    if (const char* configured_server = std::getenv("BOKKIE_SERVER_URL")) {
+        server_url = configured_server;
+    }
+    if (!server_url.empty() && server_url.back() == '/') server_url.pop_back();
+    const std::string props_url = server_url + "/props";
+    curl_easy_setopt(curl, CURLOPT_URL, props_url.c_str());
+    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, AppendBodyCallback);
+    curl_easy_setopt(curl, CURLOPT_WRITEDATA, &body);
+    const CURLcode result = curl_easy_perform(curl);
+    long statusCode = 0;
+    curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &statusCode);
+
+    curl_easy_cleanup(curl);
+    curl_global_cleanup();
+
+    if (result != CURLE_OK) {
+        throw std::runtime_error(
+            "Failed to read llama.cpp context size: " + std::string(curl_easy_strerror(result)));
+    }
+    if (statusCode < 200 || statusCode >= 300) {
+        throw std::runtime_error(
+            "llama.cpp /props request failed (" + std::to_string(statusCode) + "): " + body);
+    }
+
+    const json response = json::parse(body, nullptr, false);
+    if (response.is_discarded() ||
+        !response.contains("default_generation_settings") ||
+        !response["default_generation_settings"].is_object() ||
+        !response["default_generation_settings"].contains("n_ctx") ||
+        !response["default_generation_settings"]["n_ctx"].is_number_integer()) {
+        throw std::runtime_error("llama.cpp /props response does not contain a valid n_ctx.");
+    }
+
+    const int contextTokens =
+        response["default_generation_settings"]["n_ctx"].get<int>();
+    if (contextTokens <= 0) {
+        throw std::runtime_error("llama.cpp reported a non-positive context size.");
+    }
+    return contextTokens;
 }

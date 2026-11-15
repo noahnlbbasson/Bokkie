@@ -20,11 +20,14 @@ void ToolRegistry::register_tool(
     // Store the actual function
     tools[name] = function;
 
-    // Store its description and parameters
+    // Store the OpenAI-compatible function definition for the chat-completions API.
     tool_definitions.push_back({
-        {"name", name},
-        {"description", description},
-        {"parameters", parameters}
+        {"type", "function"},
+        {"function", {
+            {"name", name},
+            {"description", description},
+            {"parameters", parameters}
+        }}
     });
 }
 
@@ -49,4 +52,3 @@ json ToolRegistry::execute(
 
     return it->second(arguments);
 }
-

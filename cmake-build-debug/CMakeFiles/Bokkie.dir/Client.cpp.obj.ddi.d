@@ -108,6 +108,11 @@ CMakeFiles\Bokkie.dir\Client.cpp.obj.ddi: \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc \
  E:/Projects/CLionProjects/Bokkie/ToolRegistry.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/functional \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_function.h \
@@ -120,11 +125,6 @@ CMakeFiles\Bokkie.dir\Client.cpp.obj.ddi: \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/array \
  E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include/nlohmann/json.hpp \
  E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
@@ -603,4 +603,8 @@ CMakeFiles\Bokkie.dir\Client.cpp.obj.ddi: \
  E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include/curl/header.h \
  E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include/curl/websockets.h \
  E:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include/curl/mprintf.h \
- E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/fstream \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ E:/CLion\ 2026.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/fstream.tcc

@@ -1,27 +1,63 @@
 [
 {
   "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
-  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\main.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\main.cpp",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\main.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\main.cpp",
   "file": "E:/Projects/CLionProjects/Bokkie/main.cpp",
   "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/main.cpp.obj"
 },
 {
   "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
-  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\Client.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\Client.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\Client.cpp",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\ProcessRunner.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\ProcessRunner.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\ProcessRunner.cpp",
+  "file": "E:/Projects/CLionProjects/Bokkie/ProcessRunner.cpp",
+  "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/ProcessRunner.cpp.obj"
+},
+{
+  "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\Client.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\Client.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\Client.cpp",
   "file": "E:/Projects/CLionProjects/Bokkie/Client.cpp",
   "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/Client.cpp.obj"
 },
 {
   "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
-  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\Tools.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\Tools.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\Tools.cpp",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\Tools.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\Tools.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\Tools.cpp",
   "file": "E:/Projects/CLionProjects/Bokkie/Tools.cpp",
   "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/Tools.cpp.obj"
 },
 {
   "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
-  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\ToolRegistry.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\ToolRegistry.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\ToolRegistry.cpp",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\ToolRegistry.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\ToolRegistry.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\ToolRegistry.cpp",
   "file": "E:/Projects/CLionProjects/Bokkie/ToolRegistry.cpp",
   "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/ToolRegistry.cpp.obj"
+},
+{
+  "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\brain\\Conversation.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\brain\\Conversation.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\brain\\Conversation.cpp",
+  "file": "E:/Projects/CLionProjects/Bokkie/brain/Conversation.cpp",
+  "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/brain/Conversation.cpp.obj"
+},
+{
+  "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\brain\\Memory.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\brain\\Memory.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\brain\\Memory.cpp",
+  "file": "E:/Projects/CLionProjects/Bokkie/brain/Memory.cpp",
+  "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/brain/Memory.cpp.obj"
+},
+{
+  "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\brain\\TaskState.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\brain\\TaskState.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\brain\\TaskState.cpp",
+  "file": "E:/Projects/CLionProjects/Bokkie/brain/TaskState.cpp",
+  "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/brain/TaskState.cpp.obj"
+},
+{
+  "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\Runtime.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\Runtime.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\Runtime.cpp",
+  "file": "E:/Projects/CLionProjects/Bokkie/Runtime.cpp",
+  "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/Runtime.cpp.obj"
+},
+{
+  "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",
+  "command": "\"E:\\CLion 2026.3\\bin\\mingw\\bin\\c++.exe\" -DBOKKIE_TASK_STATE_FILE=\\\"E:/Projects/CLionProjects/Bokkie/brain/task_state.json\\\" -DCURL_STATICLIB -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/curl-src/include -IE:/Projects/CLionProjects/Bokkie/cmake-build-debug/_deps/json-src/include -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Bokkie.dir\\Agent.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Bokkie.dir\\Agent.cpp.obj -c E:\\Projects\\CLionProjects\\Bokkie\\Agent.cpp",
+  "file": "E:/Projects/CLionProjects/Bokkie/Agent.cpp",
+  "output": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug/CMakeFiles/Bokkie.dir/Agent.cpp.obj"
 },
 {
   "directory": "E:/Projects/CLionProjects/Bokkie/cmake-build-debug",

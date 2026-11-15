@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build Bokkie tests
+BOKKIE_BUILD_TESTS:BOOL=ON
+
 //Path to a library.
 BROTLICOMMON_LIBRARY:FILEPATH=BROTLICOMMON_LIBRARY-NOTFOUND
 
