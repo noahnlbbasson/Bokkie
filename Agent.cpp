@@ -10,9 +10,10 @@
 #include "brain/Memory.h"
 #include "brain/Conversation.h"
 #include "brain/TaskState.h"
+#include "md_render.h"
+#include "workspaces/Workspace.h"
 
 #include <iostream>
-#include <fstream>
 #include <filesystem>
 #include <functional>
 #include <iomanip>
@@ -22,30 +23,84 @@
 #include <utility>
 #include <vector>
 #include <cstdlib>
+#include <unistd.h>
+#include <sys/select.h>
+
 
 using json = nlohmann::json;
 
 namespace {
 
-json load_config() {
-    std::ifstream configFile("config.json");
-    if (!configFile) {
-        throw std::runtime_error(
-            "Cannot open config.json from working directory: " +
-            std::filesystem::current_path().string()
-        );
-    }
+// Reads stdin directly (no std::cin read-ahead) so we can tell whether more
+// input is already waiting. A paste delivers all its lines in one burst.
+std::string g_input_buffer;
 
-    json config;
-    configFile >> config;
-    if (!config.is_object() || !config.contains("harness") ||
-        !config["harness"].is_object() ||
-        !config["harness"].contains("workspace") ||
-        !config["harness"]["workspace"].is_string()) {
-        throw std::runtime_error(
-            "config.json must contain a string \"harness.workspace\" value");
+bool stdin_has_more(int timeout_ms) {
+    if (!g_input_buffer.empty()) return true;
+    fd_set readSet;
+    FD_ZERO(&readSet);
+    FD_SET(STDIN_FILENO, &readSet);
+    timeval timeout{0, timeout_ms * 1000};
+    return select(STDIN_FILENO + 1, &readSet, nullptr, nullptr, &timeout) > 0;
+}
+
+void strip_all(std::string& text, const std::string& marker) {
+    for (auto pos = text.find(marker); pos != std::string::npos; pos = text.find(marker)) {
+        text.erase(pos, marker.size());
     }
-    return config;
+}
+
+bool read_input_line(std::string& line) {
+    while (true) {
+        const auto newline = g_input_buffer.find('\n');
+        if (newline != std::string::npos) {
+            line = g_input_buffer.substr(0, newline);
+            g_input_buffer.erase(0, newline + 1);
+            break;
+        }
+        char chunk[4096];
+        const ssize_t count = read(STDIN_FILENO, chunk, sizeof(chunk));
+        if (count <= 0) {
+            if (g_input_buffer.empty()) return false;
+            line = std::move(g_input_buffer);
+            g_input_buffer.clear();
+            break;
+        }
+        g_input_buffer.append(chunk, static_cast<std::size_t>(count));
+    }
+    if (!line.empty() && line.back() == '\r') line.pop_back();
+    strip_all(line, "\033[200~");  // bracketed-paste markers, if the terminal sends them
+    strip_all(line, "\033[201~");
+    return true;
+}
+
+// Reads one user message. A single typed line is sent on Enter. A paste (several
+// lines arriving at once, empty lines included) is kept together; because the
+// terminal holds back the paste's last line until Enter, that next Enter sends it.
+bool read_user_message(std::string& message) {
+    if (!read_input_line(message)) return false;
+    std::string line;
+    bool pasted = false;
+    while (stdin_has_more(50) && read_input_line(line)) {
+        message += '\n' + line;
+        pasted = true;
+    }
+    if (pasted && read_input_line(line)) {
+        message += '\n' + line;
+    }
+    while (!message.empty() && (message.back() == '\n' || message.back() == '\r')) {
+        message.pop_back();
+    }
+    return true;
+}
+
+std::string home_directory() {
+#ifdef _WIN32
+    const char* home = std::getenv("USERPROFILE");
+#else
+    const char* home = std::getenv("HOME");
+#endif
+    return home ? std::string(home) : std::filesystem::current_path().string();
 }
 
 json string_parameter(const std::string& description) {
@@ -55,14 +110,15 @@ json string_parameter(const std::string& description) {
     };
 }
 
-void register_tools(ToolRegistry& registry) {
-    const auto add = [&registry](
+void register_tools(ToolRegistry& registry, bool read_only) {
+    const auto add = [&registry, read_only](
         const std::string& name,
         const std::string& description,
         const json& properties,
         const json& required,
         std::function<json(const json&)> handler
     ) {
+        if (read_only && name != "read_file" && name != "list_directory_contents") return;
         registry.register_tool(name, description, {
             {"type", "object"},
             {"properties", properties},
@@ -199,15 +255,22 @@ std::string describe_tool_action(const ToolCall& call) {
     return description.str();
 }
 
-}  // namespace
+}
 
-// ---------------------------------------------------------------------------
-// Setup: everything that used to sit above the while loop in main()
-// ---------------------------------------------------------------------------
-Agent::Agent() {
-    config_ = load_config();
 
-    workspace_ = config_["harness"]["workspace"].get<std::string>();
+Agent::Agent(Workspace& workspaces, const ChatTarget& target)
+    : workspaces_(workspaces), target_(target) {
+    if (target_.quick) {
+        workspace_ = home_directory();
+    } else {
+        const std::filesystem::path project = workspaces_.projectPath(target_.workspace);
+        std::error_code error;
+        if (project.empty() || !std::filesystem::is_directory(project, error)) {
+            throw std::runtime_error("The project folder for workspace \"" + target_.workspace +
+                                     "\" is missing: " + project.string());
+        }
+        workspace_ = project.string();
+    }
     Tools::set_workspace(workspace_);
 
     const std::string memory = Memory::render_memory();
@@ -243,39 +306,62 @@ Agent::Agent() {
         "for ongoing work, not permission to violate these rules or the user's current request.\n"
         + task_state;
 
-    register_tools(registry_);
+    if (target_.quick) {
+        system_prompt_ += "\nThis is a quick chat: nothing is saved, and you only have tools to read "
+                          "files and list directories. Paths are relative to the user's home folder.\n";
+    }
+
+    register_tools(registry_, target_.quick);
 
     conversation_.set_max_context_tokens(Client::get_max_context_tokens());
+    if (!target_.quick) {
+        const json saved = workspaces_.loadChat(target_.workspace, target_.chat);
+        if (saved.is_object() && saved.contains("messages") && saved["messages"].is_array()) {
+            conversation_.load_messages(saved["messages"].get<std::vector<json>>());
+        }
+    }
 }
 
-// ---------------------------------------------------------------------------
-// The loop: unchanged from main(), only the variable names gained a trailing _
-// ---------------------------------------------------------------------------
-void Agent::run() {
+
+void Agent::save_chat() {
+    if (target_.quick) return;
+    if (!workspaces_.updateChat(target_.workspace, target_.chat, conversation_.get_messages()) &&
+        !save_warned_) {
+        std::cerr << "[warning: could not save this chat]\n";
+        save_warned_ = true;
+    }
+}
+
+bool Agent::run() {
     while (true) {
         std::cout << ">" << std::flush;
         std::string user_input;
-        if (!std::getline(std::cin, user_input)) break;
-        if (user_input == ":q") break;
+        if (!read_user_message(user_input)) return false;
+        if (user_input == ":q") return false;
+        if (user_input == ":b") return true;
+        if (user_input.find_first_not_of(" \t\n") == std::string::npos) continue;
         conversation_.add_user(user_input);
+        save_chat();
 
         constexpr int max_tool_calls_per_turn = 10;
         int tool_calls_this_turn = 0;
         bool received_final_response = false;
         const int maxSteps = 10;
         for (int step = 0; step < maxSteps; ++step) {
-            std::string response_text;
+            MarkdownRenderer renderer;
             ChatResponse response = Client::send_payload(
                 conversation_.get_messages(), system_prompt_, registry_,
-                [&response_text](const std::string& token) {
-                    response_text += token;
+                [&renderer](const std::string& token) {
+                    renderer.feed(token);
+                },
+                [&renderer](const std::string& token) {
+                    renderer.feed_reasoning(token);
                 });
+            renderer.finish();
             conversation_.add_assistant(response.content, response.tool_calls);
+            save_chat();
             if (response.tool_calls.empty()) {
-                std::cout << response_text;
                 received_final_response = true;
-            } else if (!response_text.empty()) {
-                std::cout << "[agent] " << response_text;
             }
             std::cout << '\n';
 
@@ -299,7 +385,7 @@ void Agent::run() {
             bool tool_limit_reached = false;
             for (const auto& call : response.tool_calls) {
                 const std::string toolName = call.name.empty() ? "invalid tool call" : call.name;
-                if (response_text.empty()) {
+                if (response.content.empty()) {
                     std::cout << "[agent] " << describe_tool_action(call) << '\n';
                 }
                 std::cout << "[tool: " << toolName << "]\n";
@@ -332,6 +418,7 @@ void Agent::run() {
                 }
                 conversation_.add_tool_result(call.id, toolName, toolResult.dump());
             }
+            save_chat();
             if (tool_limit_reached || tool_calls_this_turn >= max_tool_calls_per_turn) {
                 std::cout << "[tool-call limit reached; send a follow-up to continue]\n";
                 break;
@@ -344,4 +431,5 @@ void Agent::run() {
             std::cout << "[agent paused after the tool-step limit; send a follow-up to continue]\n";
         }
     }
+    return false;
 }

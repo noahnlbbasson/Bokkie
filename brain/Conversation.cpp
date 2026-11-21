@@ -186,6 +186,17 @@ void Conversation::add_tool_result(const std::string& id, const std::string& nam
     });
 }
 
+void Conversation::load_messages(const std::vector<json>& messages) {
+    messages_ = messages;
+    turn_starts_.clear();
+    for (size_t i = 0; i < messages_.size(); ++i) {
+        if (messages_[i].value("role", std::string()) == "user") {
+            turn_starts_.push_back(i);
+        }
+    }
+    has_token_usage_ = false;
+}
+
 const std::vector<json>& Conversation::get_messages() const {
     return messages_;
 }

@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-test/_deps/curl-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/curl-src" vcs="Git" />
   </component>
 </project>

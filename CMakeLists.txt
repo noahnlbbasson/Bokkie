@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.4)
+cmake_minimum_required(VERSION 3.16)
 project(Bokkie)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -12,6 +12,7 @@ set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 set(BUILD_LIBCURL_DOCS OFF CACHE BOOL "" FORCE)
 set(BUILD_TESTING OFF CACHE BOOL "" FORCE)
 set(CURL_USE_LIBPSL OFF CACHE BOOL "" FORCE)
+set(CURL_USE_OPENSSL OFF CACHE BOOL "" FORCE)
 set(JSON_BuildTests OFF CACHE BOOL "" FORCE)
 
 if(WIN32)
@@ -48,7 +49,17 @@ add_executable(Bokkie main.cpp
         Runtime.cpp
         Runtime.h
         Agent.cpp
-        Agent.h)
+        Agent.h
+        main.cpp
+        md_render.h
+        LandingScreen.cpp
+        LandingScreen.h
+        LandingScreen.h
+        WorkspacesScreen.cpp
+        WorkspacesScreen.h
+        Terminal.h
+        workspaces/Workspace.cpp
+        workspaces/Workspace.h)
 
 target_compile_definitions(Bokkie PRIVATE
         "BOKKIE_TASK_STATE_FILE=\"${CMAKE_CURRENT_SOURCE_DIR}/brain/task_state.json\"")

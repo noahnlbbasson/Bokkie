@@ -20,6 +20,7 @@
       <excludeFolder url="file://$MODULE_DIR$/cmake-build-test/_deps/json-src" />
       <excludeFolder url="file://$MODULE_DIR$/cmake-build-test/_deps/json-tmp" />
       <excludeFolder url="file://$MODULE_DIR$/cmake-build-test/brain" />
+      <excludeFolder url="file://$MODULE_DIR$/build/CMakeFiles/Bokkie.dir/workspaces" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -14,22 +14,34 @@
 #include "ToolRegistry.h"
 #include "brain/Conversation.h"
 
+using json = nlohmann::json;
+
+class Workspace;
+
+struct ChatTarget {
+    bool quick = true;
+    std::string workspace;
+    std::string chat;
+};
+
 class Agent {
 public:
-    // Loads config.json, sets the workspace, builds the system prompt,
-    // registers the tools and sets the max context size.
-    Agent();
+    // Binds tools, builds the system prompt and loads the saved chat if applicable.
+    Agent(Workspace& workspaces, const ChatTarget& target);
 
-    // The whole interactive loop: read input, call the model, run tools, repeat.
-    // Returns when the user types :q or input ends.
-    void run();
+    // Returns true for :b and false for :q or when input ends.
+    bool run();
 
 private:
-    nlohmann::json config_;
+    Workspace& workspaces_;
+    ChatTarget target_;
     std::string workspace_;
     std::string system_prompt_;
     ToolRegistry registry_;
     Conversation conversation_;
+    bool save_warned_ = false;
+
+    void save_chat();
 };
 
 #endif //BOKKIE_AGENT_H

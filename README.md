@@ -22,11 +22,12 @@ A command-line AI agent written in C++ that talks to a local LLM server. It stre
 ## Building
 
 ```bash
-cmake -B cmake-build-debug -DCMAKE_BUILD_TYPE=Debug
-cmake --build cmake-build-debug
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+cmake --build build
+./build/Bokkie
 ```
 
-Or just open the project in CLion and use the pre-configured build profile.
+The first configure downloads the declared libcurl and nlohmann/json dependencies. Run these commands from the project root. Or open the project in CLion and use the pre-configured build profile.
 
 ## Usage
 

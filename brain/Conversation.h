@@ -27,6 +27,7 @@ public:
     void add_assistant(const std::string& message, const std::vector<ToolCall>& tool_calls);
     void add_tool_result(const std::string& id, const std::string& name,
                          const std::string& result);
+    void load_messages(const std::vector<nlohmann::json>& messages);
 
     const std::vector<nlohmann::json>& get_messages() const;
     bool applyCompaction();

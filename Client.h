@@ -21,16 +21,24 @@ struct ChatResponse {
     std::string error;
 };
 
+struct ServerStatus {
+    bool reachable = false;
+    std::string model_name;
+};
+
 class Client {
 public:
     static ChatResponse send_payload(
-        const std::vector<json>& messages,
+        const std::vector<json> &messages,
         std::string system_prompt,
-        ToolRegistry& registry,
-        const std::function<void(const std::string&)>& on_token,
+        ToolRegistry &registry,
+        const std::function<void(const std::string &)> &on_token,
+        const std::function<void(const std::string &)> &on_reasoning,
         bool debug = false);
 
     static int get_max_context_tokens();
+
+    static ServerStatus probe_server();
 };
 
 #endif
